@@ -1,0 +1,89 @@
+
+#registrationForm h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#registrationForm {
+    width: 300px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registrationForm label {
+    display: block;
+}
+
+#registrationForm input[type="text"],
+#registrationForm input[type="email"],
+#registrationForm input[type="tel"],
+#registrationForm input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+#registrationForm button {
+    width: 100%;
+    padding: 13px;
+    background-color: #007bff;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#registrationForm button:hover {
+    background-color: #0056b3;
+}
+
+.regisLog{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.error-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6347; /* Red color for error */
+    color: #fff;
+    text-align: center;
+    z-index: 9999; /* Ensure it's above other elements */
+    display: none; /* Initially hidden */
+}
+
+.error-message.show {
+    display: block; /* Show error message */
+}
+
+.success-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #32CD32; /* Green color for success */
+    color: #fff;
+    text-align: center;
+    z-index: 9999; /* Ensure it's above other elements */
+    display: none; /* Initially hidden */
+}
+
+.success-message.show {
+    display: block; /* Show success message */
+}
+

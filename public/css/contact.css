@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+.headerClass{
+    position: relative;
+    text-align: center;
+    background-image: url(../utils/pexels-karolina-grabowska-4197562.jpg);
+    background-size: cover;
+    padding: 400px;
+    left: 0;
+}
+
+.contact-section {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-section h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.developer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.developer-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.developer-details h3 {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.developer-details p {
+    margin-bottom: 5px;
+    margin-left: 30px;
+}

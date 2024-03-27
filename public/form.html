@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <title>Health Record Form</title>
+    <script src="./js/balance.js"></script>
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li class="logo">
+                <p>MedXR</p>
+            </li>
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="form.html">Record</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <div id="balance"></div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="headerClass">
+        <h1>Medical Record System</h1>
+    </div>
+
+
+    <form id="healthRecordForm">
+        <h2>Health Record Form</h2>
+        <label for="prescription">Prescription: <br>
+            <i>
+                Write Your Prescription Here 
+            </i></label><br>
+        <textarea id="prescription" name="prescription" required></textarea><br><br>
+
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <div id="history">
+        <h2>All Previous Health Records</h2>
+        <div id="historyContainer">
+            <!-- Health Record History will be displayed here -->
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2024 @Dorji Tsheten. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/frontend.js"></script>
+</body>
+
+</html>

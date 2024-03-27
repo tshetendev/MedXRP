@@ -1,0 +1,133 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+
+.headerClass{
+    position: relative;
+    text-align: center;
+    background-image: url(../utils/med.jpg);
+    background-size: cover;
+    padding: 400px;
+}
+
+.headerClass h1{
+    color: white;
+    font-family:  Calibri;
+    -webkit-text-stroke: 1px black;
+    font-size: 50px;
+}
+
+
+.recordButton {
+    background-color: #007bff;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 550px;
+    left: 47%;
+}
+
+.recordButton a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.recordButton:hover {
+    background-color: black;
+}
+
+.formContainer{
+    text-align: center;
+}
+
+.contents h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contents {
+    display: inline-flexbox;
+    margin-bottom: 700px;
+}
+
+.half {
+    width: 50%;
+    float: left;
+}
+
+#halfcont p{
+    text-align: center;
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 150px;
+    font-size: larger;
+}
+
+#maskimg{
+    width: 50vw;
+    height: 60vh;
+}
+
+.contents1 h2 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.contents1 {
+    display: inline-flexbox;
+    margin-bottom: 700px;
+}
+
+.half1 {
+    width: 50%;
+    float: left;
+}
+
+#halfcont1 p{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.image-row {
+    display: flex;
+}
+
+.image-wrapper {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.image-row img {
+    width: 33vw;
+    height: 80vh;
+    display: block;
+}
+
+#scrollToTop{
+    text-decoration: none;
+    font-family: Calibri;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+#scrollToTop:hover{
+    text-decoration: none;
+    font-family: Calibri;
+    color: #007bff;
+
+}
+
+.scrollTop{
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+
+main {
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    margin-bottom: 10px;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+}
+
+.headerClass{
+    position: relative;
+    text-align: center;
+    background-image: url(../utils/p3.jpg);
+    background-size: cover;
+    padding: 400px;
+    left: 0;
+}
+
+.headerClass h1{
+    color: white;
+    font-family:  Calibri;
+    -webkit-text-stroke: 1px black;
+    font-size: 50px;
+}
